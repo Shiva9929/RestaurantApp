@@ -9,6 +9,6 @@ namespace RestaurantApp.Models
         public string Category { get; set; } = string.Empty; 
         // e.g. Starter, Main Course, Dessert, Drink
         public bool IsAvailable { get; set; } = true;
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedAt { get; set; }
     }
 }
