@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🍽️ Bella Cucina Restaurant</title>
+    <title>🍽️ Amma Chethi Ruchulu Restaurant</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Segoe UI', sans-serif; background: #0f0f0f; color: #fff; min-height: 100vh; }
@@ -73,7 +73,7 @@
 </head>
 <body>
 <nav>
-    <div class="logo">🍽️ Bella Cucina</div>
+    <div class="logo">🍽️ Amma Chethi Ruchulu</div>
     <div class="nav-links">
         <a onclick="showTab('menu', event)">Menu</a>
         <a onclick="showTab('order', event)">Place Order</a>
@@ -82,7 +82,7 @@
     </div>
 </nav>
 <div class="hero">
-    <h1>Welcome to Bella Cucina</h1>
+    <h1>Welcome to Amma Chethi Ruchulu</h1>
     <p>Authentic flavors, crafted with love. Order online, enjoy at home.</p>
     <div class="hero-stats">
         <div class="stat"><h3 id="menuCount">—</h3><p>Menu Items</p></div>
@@ -104,6 +104,7 @@
         <button class="filter-btn" onclick="filterMenu('Dessert', this)">🍰 Dessert</button>
         <button class="filter-btn" onclick="filterMenu('Drink', this)">🥤 Drinks</button>
         <button class="filter-btn" onclick="filterMenu('Starter', this)">🥗 Starters</button>
+        <button class="filter-btn" onclick="filterMenu('Breakfast', this)">🍳 Breakfast</button>
     </div>
     <div class="menu-grid" id="menuGrid"><div class="loading">Loading menu...</div></div>
 </div>
