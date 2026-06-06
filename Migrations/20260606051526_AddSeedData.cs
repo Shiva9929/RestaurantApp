@@ -5,7 +5,7 @@
 namespace RestaurantApp.Migrations
 {
     /// <inheritdoc />
-    public partial class SeedMenuItems : Migration
+    public partial class AddSeedData : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

@@ -12,8 +12,8 @@ using RestaurantApp.Data;
 namespace RestaurantApp.Migrations
 {
     [DbContext(typeof(RestaurantDbContext))]
-    [Migration("20260606032327_SeedMenuData")]
-    partial class SeedMenuData
+    [Migration("20260606051526_AddSeedData")]
+    partial class AddSeedData
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -90,7 +90,7 @@ namespace RestaurantApp.Migrations
                         {
                             Id = 1,
                             Category = "Main Course",
-                            CreatedAt = new DateTime(2026, 6, 6, 3, 23, 27, 527, DateTimeKind.Utc).AddTicks(4410),
+                            CreatedAt = new DateTime(2026, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             Description = "Crispy chicken burger with lettuce and sauce",
                             IsAvailable = true,
                             Name = "Chicken Burger",
@@ -100,7 +100,7 @@ namespace RestaurantApp.Migrations
                         {
                             Id = 2,
                             Category = "Main Course",
-                            CreatedAt = new DateTime(2026, 6, 6, 3, 23, 27, 527, DateTimeKind.Utc).AddTicks(5010),
+                            CreatedAt = new DateTime(2026, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             Description = "Classic pizza with tomato sauce and mozzarella",
                             IsAvailable = true,
                             Name = "Margherita Pizza",
@@ -110,7 +110,7 @@ namespace RestaurantApp.Migrations
                         {
                             Id = 3,
                             Category = "Main Course",
-                            CreatedAt = new DateTime(2026, 6, 6, 3, 23, 27, 527, DateTimeKind.Utc).AddTicks(5010),
+                            CreatedAt = new DateTime(2026, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             Description = "Fresh Atlantic salmon with lemon butter sauce",
                             IsAvailable = true,
                             Name = "Grilled Salmon",
@@ -120,7 +120,7 @@ namespace RestaurantApp.Migrations
                         {
                             Id = 4,
                             Category = "Main Course",
-                            CreatedAt = new DateTime(2026, 6, 6, 3, 23, 27, 527, DateTimeKind.Utc).AddTicks(5010),
+                            CreatedAt = new DateTime(2026, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             Description = "Creamy pasta with bacon, eggs and parmesan",
                             IsAvailable = true,
                             Name = "Pasta Carbonara",
@@ -130,7 +130,7 @@ namespace RestaurantApp.Migrations
                         {
                             Id = 5,
                             Category = "Starter",
-                            CreatedAt = new DateTime(2026, 6, 6, 3, 23, 27, 527, DateTimeKind.Utc).AddTicks(5010),
+                            CreatedAt = new DateTime(2026, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             Description = "Fresh romaine lettuce with caesar dressing and croutons",
                             IsAvailable = true,
                             Name = "Caesar Salad",
@@ -140,7 +140,7 @@ namespace RestaurantApp.Migrations
                         {
                             Id = 6,
                             Category = "Starter",
-                            CreatedAt = new DateTime(2026, 6, 6, 3, 23, 27, 527, DateTimeKind.Utc).AddTicks(5020),
+                            CreatedAt = new DateTime(2026, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             Description = "Crispy garlic bread with herb butter",
                             IsAvailable = true,
                             Name = "Garlic Bread",
@@ -150,7 +150,7 @@ namespace RestaurantApp.Migrations
                         {
                             Id = 7,
                             Category = "Dessert",
-                            CreatedAt = new DateTime(2026, 6, 6, 3, 23, 27, 527, DateTimeKind.Utc).AddTicks(5020),
+                            CreatedAt = new DateTime(2026, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             Description = "Warm chocolate brownie with vanilla ice cream",
                             IsAvailable = true,
                             Name = "Chocolate Brownie",
@@ -160,7 +160,7 @@ namespace RestaurantApp.Migrations
                         {
                             Id = 8,
                             Category = "Dessert",
-                            CreatedAt = new DateTime(2026, 6, 6, 3, 23, 27, 527, DateTimeKind.Utc).AddTicks(5020),
+                            CreatedAt = new DateTime(2026, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             Description = "Classic Italian dessert with coffee and mascarpone",
                             IsAvailable = true,
                             Name = "Tiramisu",
@@ -170,7 +170,7 @@ namespace RestaurantApp.Migrations
                         {
                             Id = 9,
                             Category = "Drink",
-                            CreatedAt = new DateTime(2026, 6, 6, 3, 23, 27, 527, DateTimeKind.Utc).AddTicks(5020),
+                            CreatedAt = new DateTime(2026, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             Description = "Fresh squeezed mango juice",
                             IsAvailable = true,
                             Name = "Mango Juice",
@@ -180,7 +180,7 @@ namespace RestaurantApp.Migrations
                         {
                             Id = 10,
                             Category = "Drink",
-                            CreatedAt = new DateTime(2026, 6, 6, 3, 23, 27, 527, DateTimeKind.Utc).AddTicks(5020),
+                            CreatedAt = new DateTime(2026, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             Description = "Freshly squeezed lemonade with mint",
                             IsAvailable = true,
                             Name = "Fresh Lemonade",
