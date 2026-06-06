@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "L9pJmNbD3Hc=",
+  "dgSpecHash": "68XwUC88mjA=",
   "success": true,
   "projectFilePath": "/Users/shivashankar144/Desktop/RestaurantApp/RestaurantApp/RestaurantApp.csproj",
   "expectedPackageFiles": [
@@ -45,10 +45,7 @@
     "/Users/shivashankar144/.nuget/packages/system.composition.hosting/7.0.0/system.composition.hosting.7.0.0.nupkg.sha512",
     "/Users/shivashankar144/.nuget/packages/system.composition.runtime/7.0.0/system.composition.runtime.7.0.0.nupkg.sha512",
     "/Users/shivashankar144/.nuget/packages/system.composition.typedparts/7.0.0/system.composition.typedparts.7.0.0.nupkg.sha512",
-    "/Users/shivashankar144/.nuget/packages/system.identitymodel.tokens.jwt/8.0.1/system.identitymodel.tokens.jwt.8.0.1.nupkg.sha512",
-    "/Users/shivashankar144/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/10.0.8/microsoft.netcore.app.runtime.linux-x64.10.0.8.nupkg.sha512",
-    "/Users/shivashankar144/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/10.0.8/microsoft.aspnetcore.app.runtime.linux-x64.10.0.8.nupkg.sha512",
-    "/Users/shivashankar144/.nuget/packages/microsoft.netcore.app.host.linux-x64/10.0.8/microsoft.netcore.app.host.linux-x64.10.0.8.nupkg.sha512"
+    "/Users/shivashankar144/.nuget/packages/system.identitymodel.tokens.jwt/8.0.1/system.identitymodel.tokens.jwt.8.0.1.nupkg.sha512"
   ],
   "logs": []
 }
