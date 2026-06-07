@@ -26,11 +26,10 @@
         .section.active { display: block; }
         .section-title { font-size: 28px; font-weight: 700; margin-bottom: 30px; color: #f5a623; border-left: 4px solid #e74c3c; padding-left: 15px; }
         .menu-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 25px; }
-        .menu-card { background: linear-gradient(145deg, #1e1e2e, #16213e); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 25px; transition: all 0.3s; position: relative; overflow: hidden; }
-        .menu-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(135deg, #f5a623, #e74c3c); }
+        .menu-card { background: #fff; border: 1px solid #ffe0b2; border-radius: 16px; padding: 25px; transition: all 0.3s; position: relative; overflow: hidden; box-shadow: 0 4px 15px rgba(255,107,0,0.1); }        .menu-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(135deg, #f5a623, #e74c3c); }
         .menu-card:hover { transform: translateY(-5px); box-shadow: 0 15px 40px rgba(245,166,35,0.2); border-color: rgba(245,166,35,0.3); }
         .menu-card .emoji { font-size: 40px; margin-bottom: 12px; }
-        .menu-card h3 { font-size: 18px; font-weight: 700; margin-bottom: 8px; }
+        .menu-card h3 { font-size: 18px; font-weight: 700; margin-bottom: 8px; color: #2d2d2d; }
         .menu-card p { font-size: 13px; color: #888; margin-bottom: 15px; line-height: 1.5; }
         .menu-card .price { font-size: 22px; font-weight: 800; color: #f5a623; }
         .menu-card .category { display: inline-block; background: rgba(245,166,35,0.15); color: #f5a623; padding: 4px 12px; border-radius: 20px; font-size: 11px; font-weight: 600; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px; }
