@@ -1,3 +1,4 @@
+using System.Runtime.Serialization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RestaurantApp.Data;
@@ -21,6 +22,7 @@ namespace RestaurantApp.Controllers
         public async Task<IActionResult> GetAll()
         {
             var feedback = await _context.Feedbacks
+                .OrderByDescending(f => f.SubmittedAt)
                 .ToListAsync();
             return Ok(feedback);
         }
